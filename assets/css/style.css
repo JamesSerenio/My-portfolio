@@ -600,12 +600,40 @@ header .navbar ul li a:hover::after{
 .notification {
     display: none; /* Hidden by default */
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-    font-size: 18px;
-    color: white;
+    top: 20px; /* Distance from the top of the viewport */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%) translateY(-30px); /* Start slightly off-screen */
+    font-size: 18px; /* Font size */
+    color: white; /* Text color */
+    border-radius: 30px; /* Rounded corners */
     z-index: 9999; /* Make sure it's on top */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth opacity and transform transition */
+    text-align: center; /* Center text */
+    display: inline-block; /* Shrinks to fit the text */
+    padding: 5px 10px; /* Add slight padding for better spacing */
+    opacity: 0; /* Start fully transparent */
+}
+
+/* Notification success style */
+.notification.success {
+    background-color: #4CAF50; /* Green background */
+}
+
+/* Animation to make it pop up */
+@keyframes slideIn {
+    from {
+        opacity: 0; /* Start fully transparent */
+        transform: translateX(-50%) translateY(-30px); /* Start slightly off-screen */
+    }
+    to {
+        opacity: 1; /* End fully opaque */
+        transform: translateX(-50%) translateY(0); /* Move into position */
+    }
+}
+
+/* Class to trigger animation */
+.show {
+    display: inline-block; /* Ensure the element is displayed */
+    animation: slideIn 0.5s forwards; /* Apply the animation */
 }

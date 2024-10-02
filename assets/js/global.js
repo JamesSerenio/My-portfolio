@@ -42,6 +42,7 @@ var typed = new Typed(".post", {
     backDelay: 1000,
     loop: true
 }); 
+
 /*Modal*/
 
 function openModal(modalId) {
@@ -56,4 +57,49 @@ function closeModal() {
     }
 }
 
+/*notifacation*/
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var formData = new FormData(this);
+
+   
+    fetch('submit_form.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+       
+        if (data.status === 'success') {
+           
+            showNotification(data.message, 'success'); 
+        } else {
+            
+            showNotification(data.message, 'error');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        showNotification('An error occurred while submitting the form.', 'error'); 
+    });
+});
+
+// Function to show the notification with animation
+function showNotification(message, type) {
+    const notification = document.createElement('div');
+    notification.className = `notification ${type} show`; 
+    notification.innerText = message;
+
+    document.body.appendChild(notification);
+
+    
+    setTimeout(() => {
+        notification.style.opacity = '0';
+        setTimeout(() => {
+            notification.remove();
+        }, 500); 
+    }, 3000);
+}
 
