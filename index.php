@@ -274,16 +274,17 @@ Next in line is back-end development as well."</p>
             <h3><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps?q=Tankulan,Manolo+Fortich,Bukidnon" target="_blank">Tankulan, Manolo Fortich, Bukidnon</a></h3>
         </div>
     </div>
+    
+    <form id="contactForm" action="submit_form.php" method="post">
+    <input type="text" name="name" placeholder="Name:" class="box" required>
+    <input type="email" name="email" placeholder="Email:" class="box" required>
+    <input type="text" name="project_name" placeholder="Project Name:" class="box" required>
+    <textarea name="message" cols="30" rows="10" class="box message" placeholder="Message:" required></textarea>
+    <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
+</form>
 
-    <form action="">
-        <input type="text" placeholder="Name:" class="box">
-        <input type="email" placeholder="Email:" class="box">
-        <input type="text" placeholder="Project Name:" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message:"></textarea>
-        <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
-    </form>
-</div>
-
+<!-- Notification -->
+<div id="notification" class="notification"></div>
 </section>
 
 <!-- projectModal -->
@@ -412,5 +413,44 @@ Next in line is back-end development as well."</p>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery-3.7.1.js"></script>
     <script src="assets/js/global.js"></script>
+    <script>
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    var formData = new FormData(this);
+
+    // Submit the form data via AJAX
+    fetch('submit_form.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        var notification = document.getElementById('notification');
+        
+        if (data.status === 'success') {
+            // Display success message
+            notification.innerText = data.message;
+            notification.style.backgroundColor = '#4CAF50'; // Green
+        } else {
+            // Display error message
+            notification.innerText = data.message;
+            notification.style.backgroundColor = '#f44336'; // Red
+        }
+        
+        // Show notification
+        notification.style.display = 'block';
+        
+        // Hide notification after 3 seconds
+        setTimeout(function() {
+            notification.style.display = 'none';
+        }, 3000);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
+
+    </script>
 </body>
 </html>

@@ -597,3 +597,15 @@ header .navbar ul li a:hover::after{
     font-size: 1.5em;            
     font-weight: bold;
 }
+.notification {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    z-index: 9999; /* Make sure it's on top */
+}
