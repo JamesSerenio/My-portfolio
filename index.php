@@ -146,46 +146,121 @@ Next in line is back-end development as well."</p>
 </section>
 
 <section class="portfolio" id="Portfolio">
-<h1 class="heading"> My <span> Portfolio </span> </h1>
-<div class="box-contaniner">
+    <h1 class="heading"> My <span> Portfolio </span> </h1>
+    <div class="box-container">
 
-    <div class="box"onclick="openModal('bookappoint')">
-        <img src="assets/image/a.png" alt="">
-    </div>
+        <!-- Example of a flip box -->
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/image/a.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Front End</h1>
+                    <p>"I was in my second year during that time. This is the project I worked on, a book borrowing system where users can choose the categories they are interested in. It's also a part of the booking appointment system."</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="box"onclick="openModal('login')">
-        <img src="assets/image/b.png" alt="">
-    </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/image/b.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Front End</h1>
+                    <p>"I was in my second year during that time. This is what you'll see first when you open the book appointment system there, you'll find the email, password, and other details. It's the initial step before proceeding to the home page once you have an account."</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="box"onclick="openModal('home')">
-        <img src="assets/image/c.png" alt="">
-    </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                     <img src="assets/image/c.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Front End</h1>
+                    <p>"I was in my second year during that time. Once you're done with the login, you'll be directed to the home page, which includes sections like 'About Us,' 'Contact Us,' and others. This is also a part of our book appointment system."</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="box"onclick="openModal('aboutus')">
-        <img src="assets/image/d.png" alt="">
-    </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/image/d.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Front End</h1>
+                    <p>"I am a second-year student and this is from our home page. When you select 'About Us,' this is what appears, with a description of our book appointment system."</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="box"onclick="openModal('set')">
-        <img src="assets/image/e.png" alt="">
-    </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/image/e.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Front End</h1>
+                    <p>"I am a second-year student and this is what was given to us as proof for creating two set values and three set values."</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="box"onclick="openModal('chess1')">
-        <img src="assets/image/f.png" alt="">
-    </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/image/f.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Full Stack</h1>
+                    <p>"I am a first-year student and this is the first thing I worked on, a chess game, when we presented our game dev. However, we didn't present that."</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="box"onclick="openModal('chess2')">
-        <img src="assets/image/g.png" alt="">
-    </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/image/g.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Full Stack</h1>
+                    <p>"I am a first-year student, and this is the second project I worked on, a chess game, which we presented for our game dev."</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="box"onclick="openModal('box')">
-        <img src="assets/image/h.png" alt="">
-    </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/image/h.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Full Stack</h1>
+                    <p>"I am a first-year student, and this is something I worked on just for my own enjoyment. I created a Flappy Bird-style game called 'Fluppy Box."</p>
+                </div>
+            </div>
+        </div>
 
-    <div class="box"onclick="openModal('lost')">
-        <img src="assets/image/i.png" alt="">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="assets/image/i.png" alt="Project Image">
+                </div>
+                <div class="flip-box-back">
+                    <h1>Full Stack</h1>
+                    <p>"I Was Also In My First Year During That Time. That Was The Period When My Friend And I, Just For Fun, Decided To Create A Game. We Were Just Enjoying Ourselves, And We Had Talked About Becoming Game Developers In The Future, So We Made A Game Called 'Lost Game."</p>
+                </div>
+            </div>
+        </div>
+
     </div>
-</div>
 </section>
+
 <h1 class="heading"> My <span> Contact </span> </h1>
 <section class="contact" id="Contact">
 <div class="row">
@@ -327,83 +402,6 @@ Next in line is back-end development as well."</p>
         <img src="assets/image/2nd.jpg" alt="Project Image">
     </div>
 </div>
-
-
-
-<!---pictures--->
-
-<div id="bookappoint" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Front End</h1>
-        <p>"I was in my second year during that time. This is the project I worked on, a book borrowing system where users can choose the categories they are interested in. It's also a part of the booking appointment system."</p>
-    </div>
-</div>
-
-<div id="login" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Front End</h1>
-        <p>"I was in my second year during that time. This is what you'll see first when you open the book appointment system there, you'll find the email, password, and other details. It's the initial step before proceeding to the home page once you have an account."</p>
-    </div>
-</div>
-
-<div id="home" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Front End</h1>
-        <p>"I was in my second year during that time. Once you're done with the login, you'll be directed to the home page, which includes sections like 'About Us,' 'Contact Us,' and others. This is also a part of our book appointment system."</p>
-    </div>
-</div>
-
-<div id="aboutus" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Front End</h1>
-        <p>"I am a second-year student and this is from our home page. When you select 'About Us,' this is what appears, with a description of our book appointment system.""</p>
-    </div>
-</div>
-
-<div id="set" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Front End</h1>
-        <p>"I am a second-year student and this is what was given to us as proof for creating two set values and three set values."</p>
-    </div>
-</div>
-
-<div id="chess1" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Full Stack</h1>
-        <p>"I am a first-year student and this is the first thing I worked on, a chess game, when we presented our game dev. However, we didn't present that."</p>
-    </div>
-</div>
-
-<div id="chess2" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Full Stack</h1>
-        <p>"I am a first-year student, and this is the second project I worked on, a chess game, which we presented for our game dev."</p>
-    </div>
-</div>
-
-<div id="box" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Full Stack</h1>
-        <p>"I am a first-year student, and this is something I worked on just for my own enjoyment. I created a Flappy Bird-style game called 'Fluppy Box.'"</p>
-    </div>
-</div>
-
-<div id="lost" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Full Stack</h1>
-        <p>"I Was Also In My First Year During That Time. That Was The Period When My Friend And I, Just For Fun, Decided To Create A Game. We Were Just Enjoying Ourselves, And We Had Talked About Becoming Game Developers In The Future, So We Made A Game Called 'Lost Game.'"</p>
-    </div>
-</div>
-
 
 <a href="#Home" class="top">
     <img src="assets/image/rocket.png" alt="">
