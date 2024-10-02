@@ -56,4 +56,39 @@ function closeModal() {
     }
 }
 
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
 
+    var formData = new FormData(this);
+
+    // Submit the form data via AJAX
+    fetch('submit_form.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        var notification = document.getElementById('notification');
+        
+        if (data.status === 'success') {
+            // Display success message
+            notification.innerText = data.message;
+            notification.style.backgroundColor = '#4CAF50'; // Green
+        } else {
+            // Display error message
+            notification.innerText = data.message;
+            notification.style.backgroundColor = '#f44336'; // Red
+        }
+        
+        // Show notification
+        notification.style.display = 'block';
+        
+        // Hide notification after 3 seconds
+        setTimeout(function() {
+            notification.style.display = 'none';
+        }, 3000);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
