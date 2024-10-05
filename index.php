@@ -152,7 +152,7 @@ Next in line is back-end development as well."</p>
         <!-- Example of a flip box -->
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                     <img src="assets/image/a.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -164,7 +164,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                     <img src="assets/image/b.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -176,7 +176,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                      <img src="assets/image/c.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -188,7 +188,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                     <img src="assets/image/d.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -200,7 +200,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                     <img src="assets/image/e.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -212,7 +212,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                     <img src="assets/image/f.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -224,7 +224,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                     <img src="assets/image/g.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -236,7 +236,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                     <img src="assets/image/h.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -248,7 +248,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front">
+                <div class="flip-box-front fade-in">
                     <img src="assets/image/i.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
