@@ -103,3 +103,38 @@ function showNotification(message, type) {
     }, 3000);
 }
 
+// Function to check if an element is in view
+function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const fadeElements = document.querySelectorAll('.fade-in');
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible'); 
+            } else {
+                entry.target.classList.remove('visible'); 
+            }
+        });
+    }, observerOptions);
+
+    fadeElements.forEach(element => {
+        observer.observe(element); 
+    });
+});
+

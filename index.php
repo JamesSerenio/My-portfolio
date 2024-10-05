@@ -37,33 +37,33 @@
 <img src="assets/image/pics.png" alt="">
 </section>
 
-<section class="about" id="About">
-    <h1 class="heading"> <span> About </span> Me </h1>
-    <div class="row">
-        <div class="info">
+<section class="about fade-in" id="About">
+    <h1 class="heading fade-in"> <span> About </span> Me </h1>
+    <div class="row fade-in">
+        <div class="info fade-in">
             <h3><span> Name:</span> James M. Serenio </h3>
             <h3><span> Age: </span> 22 </h3>
             <h3><span> Post:</span> Front End Developer, Web Designer, Programer, Web Developer </h3>
             <h3><span> Language: </span> English </h3>
         </div>
         
-        <div class="counter">
-            <div class="box"onclick="openModal('project')">
+        <div class="counter fade-in">
+            <div class="box fade-in"onclick="openModal('project')">
                 <span>5+</span>
                 <h3>Project Completed</h3>
             </div>
 
-            <div class="box"onclick="openModal('yearOfStudying')">
+            <div class="box fade-in"onclick="openModal('yearOfStudying')">
                 <span>2+</span>
                 <h3>Year Of Studying</h3>
             </div>
 
-            <div class="box"onclick="openModal('certificateAwards')">
+            <div class="box fade-in"onclick="openModal('certificateAwards')">
                 <span>5+</span>
                 <h3>Certificate Awards</h3>
             </div> 
 
-            <div class="box"onclick="openModal('satisfiedCustomers')">
+            <div class="box fade-in"onclick="openModal('satisfiedCustomers')">
                 <span>5+</span>
                 <h3>Satisfied Customers</h3>
             </div>
@@ -71,12 +71,12 @@
     </div>
 </section>
 
-<section class="education" id="Education">
-    <h1 class="heading"> My <span> Education </span> </h1>
-    <div class="box-container">
+<section class="education fade-in" id="Education">
+    <h1 class="heading fade-in"> My <span> Education </span> </h1>
+    <div class="box-container fade-in">
 
-        <div class="box"onclick="openModal('modal2018')">
-            <i class="hi"></i>
+        <div class="box fade-in"onclick="openModal('modal2018')">
+            <i class="hi fade-in"></i>
             <span>2018</span>
             <h3>Sports</h3>
             <p>"This year, 
@@ -85,8 +85,8 @@ and we practiced for a year for the upcoming
 competition."</p>
         </div>
 
-        <div class="box"onclick="openModal('modal2019')">
-            <i class="hi"></i>
+        <div class="box fade-in"onclick="openModal('modal2019')">
+            <i class="hi fade-in"></i>
             <span>2019</span>
             <h3>Sports</h3>
             <p>"This year, 
@@ -98,8 +98,8 @@ in the qualifying rounds for the
 Philippine team as a first-timer."</p>
         </div>
 
-        <div class="box"onclick="openModal('modal2020')">
-            <i class="hi"></i>
+        <div class="box fade-in"onclick="openModal('modal2020')">
+            <i class="hi fade-in"></i>
             <span>2020</span>
             <h3>A.B.M</h3>
             <p>"This year, 
@@ -110,8 +110,8 @@ because I know I can use it in the future."
 </p>
         </div>
 
-        <div class="box"onclick="openModal('modal2021')">
-            <i class="hi"></i>
+        <div class="box fade-in"onclick="openModal('modal2021')">
+            <i class="hi fade-in"></i>
             <span>2021</span>
             <h3>A.B.M</h3>
             <p>"This year, 
@@ -120,8 +120,8 @@ and I will be taking
  the entrance exams for my college."</p>
         </div>
 
-        <div class="box"onclick="openModal('modal2022')">
-            <i class="hi"></i>
+        <div class="box fade-in"onclick="openModal('modal2022')">
+            <i class="hi fade-in"></i>
             <span>2022</span>
             <h3>Information technology</h3>
             <p>"This year, 
@@ -131,8 +131,8 @@ and have already registered
 for my incoming first year in college."</p>
         </div>
 
-        <div class="box"onclick="openModal('modal2023')">
-            <i class="hi"></i>
+        <div class="box fade-in"onclick="openModal('modal2023')">
+            <i class="hi fade-in"></i>
             <span>2023</span>
             <h3>Information technology</h3>
             <p>"This year, 
@@ -145,9 +145,9 @@ Next in line is back-end development as well."</p>
     </div>
 </section>
 
-<section class="portfolio" id="Portfolio">
-    <h1 class="heading"> My <span> Portfolio </span> </h1>
-    <div class="box-container">
+<section class="portfolio fade-in" id="Portfolio">
+    <h1 class="heading fade-in"> My <span> Portfolio </span> </h1>
+    <div class="box-container fade-in">
 
         <!-- Example of a flip box -->
         <div class="flip-box">
@@ -261,17 +261,17 @@ Next in line is back-end development as well."</p>
     </div>
 </section>
 
-<h1 class="heading"> My <span> Contact </span> </h1>
-<section class="contact" id="Contact">
-<div class="row">
-    <div class="content">
-        <h3 class="title"> Contact Info </h3>
+<h1 class="heading fade-in"> My <span> Contact </span> </h1>
+<section class="contact fade-in" id="Contact">
+<div class="row fade-in">
+    <div class="content fade-in">
+        <h3 class="title fade-in"> Contact Info </h3>
         <div class="info">
-            <h3><i class=" fas fa-envelope"></i><a href="mailto:sereniojames363@gmail.com">sereniojames363@gmail.com</a></h3>
-            <h3><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/JamesManayagaSerenio" target="_blank">James Manayaga Serenio</a></h3>
-            <h3><i class=" fas fa-phone"></i> 09264686973-TM </h3>
-            <h3><i class=" fas fa-phone"></i> 09308887220-Smart </h3>
-            <h3><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps?q=Tankulan,Manolo+Fortich,Bukidnon" target="_blank">Tankulan, Manolo Fortich, Bukidnon</a></h3>
+            <h3><i class=" fas fa-envelope fade-in"></i><a href="mailto:sereniojames363@gmail.com">sereniojames363@gmail.com</a></h3>
+            <h3><i class="fab fa-facebook fade-in"></i> <a href="https://www.facebook.com/JamesManayagaSerenio" target="_blank">James Manayaga Serenio</a></h3>
+            <h3><i class=" fas fa-phone fade-in"></i> 09264686973-TM </h3>
+            <h3><i class=" fas fa-phone fade-in"></i> 09308887220-Smart </h3>
+            <h3><i class="fas fa-map-marker-alt fade-in"></i> <a href="https://www.google.com/maps?q=Tankulan,Manolo+Fortich,Bukidnon" target="_blank">Tankulan, Manolo Fortich, Bukidnon</a></h3>
         </div>
     </div>
     
