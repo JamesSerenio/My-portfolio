@@ -1,10 +1,9 @@
 <?php
 // config.php
-
-$servername = "localhost";  // Change if needed
-$username = "root";         // Your DB username
-$password = "";             // Your DB password
-$dbname = "portfolio_db";  // Your database name
+$servername = "localhost"; 
+$username = "root";        
+$password = "";             
+$dbname = "portfolio_db"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

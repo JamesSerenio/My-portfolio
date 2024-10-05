@@ -28,12 +28,12 @@
 </header>
 
 <div id="menu" class="fas fa-bars"></div>
-<section class="home" id="Home">
+<section class="home fade-in" id="Home">
     
 <h3>Welcome</h3>
 <h3>To</h3>
 <h3>James Serenio </h3>
-<h3>Portfolio</h3>
+<h3>Portfolio</h3>  
 <img src="assets/image/pics.png" alt="">
 </section>
 
@@ -201,18 +201,6 @@ Next in line is back-end development as well."</p>
         <div class="flip-box">
             <div class="flip-box-inner">
                 <div class="flip-box-front fade-in">
-                    <img src="assets/image/e.png" alt="Project Image">
-                </div>
-                <div class="flip-box-back">
-                    <h1>Front End</h1>
-                    <p>"I am a second-year student and this is what was given to us as proof for creating two set values and three set values."</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="flip-box">
-            <div class="flip-box-inner">
-                <div class="flip-box-front fade-in">
                     <img src="assets/image/f.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
@@ -248,7 +236,7 @@ Next in line is back-end development as well."</p>
 
         <div class="flip-box">
             <div class="flip-box-inner">
-                <div class="flip-box-front fade-in">
+                <div class="flip-box-front fade-in  ">
                     <img src="assets/image/i.png" alt="Project Image">
                 </div>
                 <div class="flip-box-back">
