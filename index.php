@@ -69,6 +69,76 @@
             </div>
         </div>
     </div>
+
+<!-- projectModal -->
+
+<div id="project" class="modal">
+    <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+        <h1>BOOK Appointment System</h1>
+        <p>"I was in my second year then, and that was assigned to us by our proof laboratory. We collaborated with the third year, with us handling the front end and the third year working on the back end. Our system was a Booking Appointment System."</p>
+        <img src="assets/image/a.png" alt="Project Image">
+        <img src="assets/image/b.png" alt="Project Image">
+        <img src="assets/image/c.png" alt="Project Image">
+        <img src="assets/image/d.png" alt="Project Image">
+        <h1>Set two value and set Three Value</h1>
+        <p>"I was in my second year during that time. That was assigned to us by our proof lecture, and it involved working with two set values and three set values."</p>
+        <img src="assets/image/e.png" alt="Project Image">
+        <h1>Chess Game</h1>
+        <p>"I was in my first year during that time. That was our second-semester finals for our GAME DEV. We were given the task to create a chess game, and the second picture we showed was what we presented because the first one didn't turn out so well."</p>
+        <img src="assets/image/f.png" alt="Project Image">
+        <img src="assets/image/g.png" alt="Project Image">
+        <h1>Flappy box Game</h1>
+        <p>"I was in my first year during that time. That was a game I created just for fun, as I was experimenting with coding and decided to try my hand at making a game."</p>
+        <img src="assets/image/h.png" alt="Project Image">
+        <h1>Lost Game</h1>
+        <p>"I was also in my first year during that time. That was the period when my friend and I, just for fun, decided to create a game. We were just enjoying ourselves, and we had talked about becoming game developers in the future, so we made a game called 'Lost Game.'"</p>
+        <img src="assets/image/i.png" alt="Project Image">
+    </div>
+</div>
+
+<!-- yearOfStudyingModal -->
+
+<div id="yearOfStudying" class="modal">
+    <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+        <h1>First Year</h1>
+        <p>"I'm still in my first year then, and we're waiting for the next school year. While waiting, we took pictures."</p>
+        <img src="assets/image/studying2.jpg" alt="Project Image">
+        <h1>Second Year</h1>
+        <p>"I was in my second year then, and we were creating a portfolio design using Figma, I think it was around 7 PM."</p>
+        <img src="assets/image/studying1.jpg" alt="Project Image">
+    </div>
+</div>
+
+<!-- Certificate Awards Modal -->
+
+<div id="certificateAwards" class="modal">
+    <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+        <h1>Awards</h1>
+        <p>"Those were my high school days when I was aiming to win all the awards for my swimming achievements."</p>
+        <img src="assets/image/awards.jpg" alt="Project Image">
+    </div>
+</div>
+
+<!-- Satisfied Customers Modal -->
+
+<div id="satisfiedCustomers" class="modal">
+    <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+        <h1>Satisfied Customers</h1>
+        <p>"I was in my second year during that time. Those were the people who became my customers, but I also took the time to teach them because I wanted all of us to succeed."</p>
+        <img src="assets/image/customer1.jpg" alt="Project Image">
+        <img src="assets/image/customer2.jpg" alt="Project Image">
+        <img src="assets/image/customer3.jpg" alt="Project Image">
+        <img src="assets/image/customer4.jpg" alt="Project Image">
+        <img src="assets/image/customer5.jpg" alt="Project Image">
+        <img src="assets/image/customer6.jpg" alt="Project Image">
+    </div>
+</div>
+
+
 </section>
 
 <section class="education fade-in" id="Education">
@@ -143,6 +213,57 @@ and I am currently studying front-end development.
 Next in line is back-end development as well."</p>
         </div>
     </div>
+
+<!-- Modals for each year -->
+<div id="modal2018" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h1>Year 2018</h1>
+        <img src="assets/image/sport1.jpg" alt="Project Image">
+    </div>
+</div>
+
+<div id="modal2019" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h1>Year 2019</h1>
+        <img src="assets/image/sport2.jpg" alt="Project Image">
+    </div>
+</div>
+
+<div id="modal2020" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h1>Year 2020</h1>
+        <img src="assets/image/g11.jpg" alt="Project Image">
+    </div>
+</div>
+
+<div id="modal2021" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h1>Year 2021</h1>
+        <img src="assets/image/g12.jpg" alt="Project Image">
+    </div>
+</div>
+
+<div id="modal2022" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h1>Year 2022</h1>
+        <img src="assets/image/studying2.jpg" alt="Project Image">
+    </div>
+</div>
+
+<div id="modal2023" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h1>Year 2023</h1>
+        <img src="assets/image/2nd.jpg" alt="Project Image">
+    </div>
+</div>
+
+
 </section>
 
 <section class="portfolio fade-in" id="Portfolio">
@@ -274,123 +395,6 @@ Next in line is back-end development as well."</p>
 <!-- Notification -->
 <div id="notification" class="notification"></div>
 </section>
-
-<!-- projectModal -->
-
-<div id="project" class="modal">
-    <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-        <h1>BOOK Appointment System</h1>
-        <p>"I was in my second year then, and that was assigned to us by our proof laboratory. We collaborated with the third year, with us handling the front end and the third year working on the back end. Our system was a Booking Appointment System."</p>
-        <img src="assets/image/a.png" alt="Project Image">
-        <img src="assets/image/b.png" alt="Project Image">
-        <img src="assets/image/c.png" alt="Project Image">
-        <img src="assets/image/d.png" alt="Project Image">
-        <h1>Set two value and set Three Value</h1>
-        <p>"I was in my second year during that time. That was assigned to us by our proof lecture, and it involved working with two set values and three set values."</p>
-        <img src="assets/image/e.png" alt="Project Image">
-        <h1>Chess Game</h1>
-        <p>"I was in my first year during that time. That was our second-semester finals for our GAME DEV. We were given the task to create a chess game, and the second picture we showed was what we presented because the first one didn't turn out so well."</p>
-        <img src="assets/image/f.png" alt="Project Image">
-        <img src="assets/image/g.png" alt="Project Image">
-        <h1>Flappy box Game</h1>
-        <p>"I was in my first year during that time. That was a game I created just for fun, as I was experimenting with coding and decided to try my hand at making a game."</p>
-        <img src="assets/image/h.png" alt="Project Image">
-        <h1>Lost Game</h1>
-        <p>"I was also in my first year during that time. That was the period when my friend and I, just for fun, decided to create a game. We were just enjoying ourselves, and we had talked about becoming game developers in the future, so we made a game called 'Lost Game.'"</p>
-        <img src="assets/image/i.png" alt="Project Image">
-    </div>
-</div>
-
-<!-- yearOfStudyingModal -->
-
-<div id="yearOfStudying" class="modal">
-    <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-        <h1>First Year</h1>
-        <p>"I'm still in my first year then, and we're waiting for the next school year. While waiting, we took pictures."</p>
-        <img src="assets/image/studying2.jpg" alt="Project Image">
-        <h1>Second Year</h1>
-        <p>"I was in my second year then, and we were creating a portfolio design using Figma, I think it was around 7 PM."</p>
-        <img src="assets/image/studying1.jpg" alt="Project Image">
-    </div>
-</div>
-
-<!-- Certificate Awards Modal -->
-
-<div id="certificateAwards" class="modal">
-    <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Awards</h1>
-        <p>"Those were my high school days when I was aiming to win all the awards for my swimming achievements."</p>
-        <img src="assets/image/awards.jpg" alt="Project Image">
-    </div>
-</div>
-
-<!-- Satisfied Customers Modal -->
-
-<div id="satisfiedCustomers" class="modal">
-    <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Satisfied Customers</h1>
-        <p>"I was in my second year during that time. Those were the people who became my customers, but I also took the time to teach them because I wanted all of us to succeed."</p>
-        <img src="assets/image/customer1.jpg" alt="Project Image">
-        <img src="assets/image/customer2.jpg" alt="Project Image">
-        <img src="assets/image/customer3.jpg" alt="Project Image">
-        <img src="assets/image/customer4.jpg" alt="Project Image">
-        <img src="assets/image/customer5.jpg" alt="Project Image">
-        <img src="assets/image/customer6.jpg" alt="Project Image">
-    </div>
-</div>
-
-<!-- Modals for each year -->
-<div id="modal2018" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2018</h1>
-        <img src="assets/image/sport1.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2019" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2019</h1>
-        <img src="assets/image/sport2.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2020" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2020</h1>
-        <img src="assets/image/g11.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2021" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2021</h1>
-        <img src="assets/image/g12.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2022" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2022</h1>
-        <img src="assets/image/studying2.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2023" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2023</h1>
-        <img src="assets/image/2nd.jpg" alt="Project Image">
-    </div>
-</div>
 
 <a href="#Home" class="top">
     <img src="assets/image/rocket.png" alt="">
