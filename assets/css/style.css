@@ -196,16 +196,21 @@ header .navbar ul li a:hover::after{
     margin-bottom: 10rem;
     margin-top: 10rem;
 }
+
 .heading::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -0.5rem; 
     left: 50%;
-    width: 100%;
-    height: 0.1rem;
-    background: linear-gradient(45deg, #f06, #3cf, #f06);
+    width: 100%; 
+    height: 1px; 
+    background: url('../image/p.gif') repeat-x; 
+    background-size: cover;
     transform: translateX(-50%);
+    z-index: -1; 
 }
+
+
 .about .row{
     display: flex;
     align-items: center;
@@ -225,7 +230,7 @@ header .navbar ul li a:hover::after{
     font-weight: normal;
 }
 .about .row .info h3 span{
-    background-image: linear-gradient(45deg, #f06, #3cf, #f06);
+    background: url('../image/p.gif') repeat-x; 
     -webkit-background-clip: text;
     -webkit-text-stroke: .1px #3cf;
     color: transparent; 
@@ -258,7 +263,7 @@ header .navbar ul li a:hover::after{
 }
 .about .row .counter .box span{
     font-size: 4rem;
-    background: linear-gradient(45deg, #f06, #3cf);
+    background: url('../image/p.gif') repeat-x;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-stroke: .1px #3cf;
@@ -277,7 +282,7 @@ header .navbar ul li a:hover::after{
     color: orange;
 }
 .heading span{
-    background: linear-gradient(45deg, #f06, #3cf);
+    background: url('../image/p.gif') repeat-x;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-stroke: .1px #3cf;
@@ -308,7 +313,7 @@ header .navbar ul li a:hover::after{
     width: 50px;
     height: 50px;
     margin-right: 1rem;
-    background: linear-gradient(45deg, #f06, #3cf);
+    background: url('../image/p.gif') repeat-x; 
     border-radius: 50%;
     font-size: 20px;
     color: #fff;
@@ -331,7 +336,7 @@ header .navbar ul li a:hover::after{
 }
 .education .box-container .box h3{
     font-size: 2rem;
-    background: linear-gradient(45deg, #f06, #3cf, #f06);
+    background: url('../image/p.gif') repeat-x; 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-stroke: .1px #3cf;
@@ -398,9 +403,9 @@ header .navbar ul li a:hover::after{
     width: 100%;
     border-radius: 2rem;
     border-top: 0.1rem solid #f06;
-    border-left: 0.1rem solid #f06;
+    border-left: 0.1rem solid #3cf;
     border-right: 0.1rem solid #f06;
-    border-bottom: 0.1rem solid #f06;
+    border-bottom: 0.1rem solid #3cf;
     color: orange;
     background: transparent;
 }
@@ -408,9 +413,9 @@ header .navbar ul li a:hover::after{
     background: transparent;
     border-radius: 2rem;
     border-top: 0.1rem solid #f06;
-    border-left: 0.1rem solid #f06;
+    border-left: 0.1rem solid #3cf;
     border-right: 0.1rem solid #f06;
-    border-bottom: 0.1rem solid #f06;
+    border-bottom: 0.1rem solid #3cf;
     background: transparent;
     color: #fff;
     border-radius: 1rem;
@@ -425,7 +430,7 @@ header .navbar ul li a:hover::after{
 }
 .contact .row .content .title{
     text-transform: uppercase;
-    background: linear-gradient(45deg, #f06, #3cf, #f06);
+    background: url('../image/p.gif') repeat-x; 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-stroke: .1px #3cf;
@@ -454,7 +459,7 @@ header .navbar ul li a:hover::after{
     width: 40px;
     height: 40px;
     margin-right: 1rem;
-    background: linear-gradient(45deg, #f06, #3cf);
+    background: url('../image/p.gif') repeat-x; 
     border-radius: 50%;
     font-size: 20px;
     color: #fff;
@@ -515,7 +520,7 @@ header .navbar ul li a:hover::after{
     background-color: black; 
 }
 .modal-content h1{
-    background: linear-gradient(45deg, #f06, #3cf);
+    background: url('../image/p.gif') repeat-x; 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     filter: brightness(1.5);
@@ -625,13 +630,13 @@ header .navbar ul li a:hover::after{
     align-items: center;
     padding: 20px;
     text-align: center;
-    border: 2px solid; /* Set border size */
+    border: 2px solid; 
     border-image: linear-gradient(45deg, #f06, #3cf) 1;
 }
 
 
 .flip-box-back h1 {
-    background: linear-gradient(45deg, #f06, #3cf);
+    background: url('../image/p.gif') repeat-x; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 0;
