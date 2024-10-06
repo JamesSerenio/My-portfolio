@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Completed</title>
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/Certificate_Awards.css">
+    <link rel="stylesheet" type="text/css" href="../../css/Project_Completed.css">
 </head>
 <body>
+    
+<a href="javascript:history.back()" class="back-button">
+        <img src="../../image/back.gif" alt="Back">
+    </a>
+
     <section class="project-section">
         <h1>Project Completed</h1>
         <p>"I was in my second year then, and that was assigned to us by our proof laboratory. We collaborated with the third year, with us handling the front end and the third year working on the back end. Our system was a Booking Appointment System."</p>
@@ -26,7 +31,7 @@
         <p>"I was in my first year during that time. That was a game I created just for fun, as I was experimenting with coding and decided to try my hand at making a game."</p>
         <img src="../../image/h.png" alt="Project Image h">
         <h1>Lost Game</h1>
-        <p?>"I was also in my first year during that time. That was the period when my friend and I, just for fun, decided to create a game. We were just enjoying ourselves, and we had talked about becoming game developers in the future, so we made a game called 'Lost Game."</p>
+        <p>"I was also in my first year during that time. That was the period when my friend and I, just for fun, decided to create a game. We were just enjoying ourselves, and we had talked about becoming game developers in the future, so we made a game called 'Lost Game."</p>
         <img src="../../image/i.png" alt="Project Image i">
     </section>
     
