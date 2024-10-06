@@ -73,3 +73,21 @@ body {
         max-width: 100%;
     }
 }
+
+.back-button {
+    position: fixed;
+    top: 5%;
+    left: 95%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.back-button img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.back-button img:hover {
+    transform: scale(1.1);
+}

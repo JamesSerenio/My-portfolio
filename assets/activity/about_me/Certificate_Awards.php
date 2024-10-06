@@ -9,6 +9,10 @@
 </head>
 <body>
 
+<a href="javascript:history.back()" class="back-button">
+        <img src="../../image/back.gif" alt="Back">
+    </a>
+    
 <section class="certificate-section">
         <h1>Certificate Awards</h1>
         <p>"Those were my high school days when I was aiming to win all the awards for my swimming achievements."</p>
