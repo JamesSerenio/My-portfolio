@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Year Of Studying</title>
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/Certificate_Awards.css">
+    <link rel="stylesheet" type="text/css" href="../../css/Year_Of_Studying.css">
 </head>
 <body>
+
+<a href="javascript:history.back()" class="back-button">
+        <img src="../../image/back.gif" alt="Back">
+    </a>
+
+
     <section class="year-section">
         <h1>Year Of Studying</h1>
         <p>I'm still in my first year then, and we're waiting for the next school year. While waiting, we took pictures."</p>
