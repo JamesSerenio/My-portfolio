@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Year 2020</title>
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/Certificate_Awards.css">
+    <link rel="stylesheet" type="text/css" href="../../activity/my_education_css/education.css">
 </head>
 <body>
-    
+
 <a href="javascript:history.back()" class="back-button">
         <img src="../../image/back.gif" alt="Back">
     </a>
