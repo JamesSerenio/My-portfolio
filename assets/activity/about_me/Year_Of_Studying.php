@@ -10,8 +10,11 @@
 <body>
     <section class="year-section">
         <h1>Year Of Studying</h1>
-        <p>Details about your years of study will go here.</p>
+        <p>I'm still in my first year then, and we're waiting for the next school year. While waiting, we took pictures."</p>
         <img src="../../image/studying2.jpg" alt="Year of Study Image">
+        <h1>Second Year</h1>
+        <p>"I was in my second year then, and we were creating a portfolio design using Figma, I think it was around 7 PM."</p>
+        <img src="../../image/studying1.jpg" alt="Year of Study Image">
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

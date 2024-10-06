@@ -11,7 +11,7 @@
 
 <section class="certificate-section">
         <h1>Certificate Awards</h1>
-        <p>Details about your certificate awards will go here.</p>
+        <p>"Those were my high school days when I was aiming to win all the awards for my swimming achievements."</p>
         <img src="../../image/awards.jpg" alt="Certificate Awards Image">
     </section>
 
