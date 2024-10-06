@@ -49,21 +49,21 @@
         
         <div class="counter fade-in">
     <div class="box fade-in">
-        <a href="assets/activity/about me/Certificate_Awards.php">
+        <a href="assets/activity/about_me/Project_Completed.php">
             <span>5+</span>
             <h3>Project Completed</h3>
         </a>
     </div>
 
     <div class="box fade-in">
-        <a href="assets/activity/about me/Project_Completed.php">
+        <a href="assets/activity/about_me/Year_Of_Studying.php">
             <span>2+</span>
             <h3>Year Of Studying</h3>
         </a>
     </div>
 
     <div class="box fade-in">
-        <a href="certificate_awards.html">
+        <a href="assets/activity/about_me/Certificate_Awards.php">
             <span>5+</span>
             <h3>Certificate Awards</h3>
         </a>

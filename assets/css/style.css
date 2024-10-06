@@ -273,6 +273,7 @@ header .navbar ul li a:hover::after{
     background-position: 0 0;
     animation: higuys 6s linear infinite;  
     animation-delay: 2s;
+    text-decoration-line: none;
 }
 .about .row .counter .box h3{
     font-size: 2rem;
@@ -281,6 +282,10 @@ header .navbar ul li a:hover::after{
 .about h1{
     color: orange;
 }
+.counter a {
+    text-decoration: none;
+}
+
 .heading span{
     background: url('../image/p.gif') repeat-x;
     -webkit-text-fill-color: transparent;
