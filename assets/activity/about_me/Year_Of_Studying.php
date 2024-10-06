@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Year Of Studying</title>
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/Year_Of_Studying.css">
+    <link rel="stylesheet" type="text/css" href="../../activity/about_me_css/Year_Of_Studying.css">
 </head>
 <body>
 
