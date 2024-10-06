@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Year of Studying</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Year Of Studying</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/Certificate_Awards.css">
 </head>
 <body>
-    <section class="year-studying-section">
-        <h1>Year of Studying</h1>
-        <p>Information about the years you have spent studying goes here.</p>
-        <img src="assets/image/studying2.jpg" alt="Studying Image">
+    <section class="year-section">
+        <h1>Year Of Studying</h1>
+        <p>Details about your years of study will go here.</p>
+        <img src="../../image/studying2.jpg" alt="Year of Study Image">
     </section>
 
-    <script src="assets/js/global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/jquery-3.7.1.js"></script>
+    <script src="../../js/global.js"></script>
 </body>
 </html>
