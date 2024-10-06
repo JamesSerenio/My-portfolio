@@ -82,126 +82,87 @@
     <h1 class="heading fade-in"> My <span> Education </span> </h1>
     <div class="box-container fade-in">
 
-        <div class="box fade-in"onclick="openModal('modal2018')">
-            <i class="hi fade-in"></i>
-            <span>2018</span>
-            <h3>Sports</h3>
-            <p>"This year, 
-I joined the swimming team for our school, 
-and we practiced for a year for the upcoming
-competition."</p>
+        <div class="box fade-in">
+            <a href="assets/activity/my_education/2018.php">
+                <i class="hi fade-in"></i>
+                <span>2018</span>
+                <h3>Sports</h3>
+                <p>"This year, 
+                I joined the swimming team for our school, 
+                and we practiced for a year for the upcoming
+                competition."</p>
+            </a>
         </div>
 
-        <div class="box fade-in"onclick="openModal('modal2019')">
-            <i class="hi fade-in"></i>
-            <span>2019</span>
-            <h3>Sports</h3>
-            <p>"This year, 
-we competed in the games, 
-and I won three gold medals and other events. 
-Although it wasn't bad, 
-I also secured one silver and two bronze medals 
-in the qualifying rounds for the 
-Philippine team as a first-timer."</p>
+        <div class="box fade-in">
+            <a href="assets/activity/my_education/2019.php">
+                <i class="hi fade-in"></i>
+                <span>2019</span>
+                <h3>Sports</h3>
+                <p>"This year, 
+                we competed in the games, 
+                and I won three gold medals and other events. 
+                Although it wasn't bad, 
+                I also secured one silver and two bronze medals 
+                in the qualifying rounds for the 
+                Philippine team as a first-timer."</p>
+            </a>
         </div>
 
-        <div class="box fade-in"onclick="openModal('modal2020')">
-            <i class="hi fade-in"></i>
-            <span>2020</span>
-            <h3>A.B.M</h3>
-            <p>"This year, 
-I have graduated, 
-and the strand I took was 
-A.B.M (Accountancy, Business, and Management) 
-because I know I can use it in the future."
-</p>
+        <div class="box fade-in">
+            <a href="assets/activity/my_education/2020.php">
+                <i class="hi fade-in"></i>
+                <span>2020</span>
+                <h3>A.B.M</h3>
+                <p>"This year, 
+                I have graduated, 
+                and the strand I took was 
+                A.B.M (Accountancy, Business, and Management) 
+                because I know I can use it in the future."</p>
+            </a>
         </div>
 
-        <div class="box fade-in"onclick="openModal('modal2021')">
-            <i class="hi fade-in"></i>
-            <span>2021</span>
-            <h3>A.B.M</h3>
-            <p>"This year, 
-I am an incoming graduate, 
-and I will be taking
- the entrance exams for my college."</p>
+        <div class="box fade-in">
+            <a href="assets/activity/my_education/2021.php">
+                <i class="hi fade-in"></i>
+                <span>2021</span>
+                <h3>A.B.M</h3>
+                <p>"This year, 
+                I am an incoming graduate, 
+                and I will be taking
+                the entrance exams for my college."</p>
+            </a>
         </div>
 
-        <div class="box fade-in"onclick="openModal('modal2022')">
-            <i class="hi fade-in"></i>
-            <span>2022</span>
-            <h3>Information technology</h3>
-            <p>"This year, 
-I passed the exam and qualified for almost all courses. 
-I chose Information Technology 
-and have already registered 
-for my incoming first year in college."</p>
+        <div class="box fade-in">
+            <a href="assets/activity/my_education/2022.php">
+                <i class="hi fade-in"></i>
+                <span>2022</span>
+                <h3>Information Technology</h3>
+                <p>"This year, 
+                I passed the exam and qualified for almost all courses. 
+                I chose Information Technology 
+                and have already registered 
+                for my incoming first year in college."</p>
+            </a>
         </div>
 
-        <div class="box fade-in"onclick="openModal('modal2023')">
-            <i class="hi fade-in"></i>
-            <span>2023</span>
-            <h3>Information technology</h3>
-            <p>"This year, 
-I am not yet in my second year of college, 
-but I am still in the learning phase. 
-We have completed several projects, 
-and I am currently studying front-end development. 
-Next in line is back-end development as well."</p>
+        <div class="box fade-in">
+            <a href="assets/activity/my_education/2023.php">
+                <i class="hi fade-in"></i>
+                <span>2023</span>
+                <h3>Information Technology</h3>
+                <p>"This year, 
+                I am not yet in my second year of college, 
+                but I am still in the learning phase. 
+                We have completed several projects, 
+                and I am currently studying front-end development. 
+                Next in line is back-end development as well."</p>
+            </a>
         </div>
     </div>
-
-<!-- Modals for each year -->
-<div id="modal2018" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2018</h1>
-        <img src="assets/image/sport1.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2019" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2019</h1>
-        <img src="assets/image/sport2.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2020" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2020</h1>
-        <img src="assets/image/g11.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2021" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2021</h1>
-        <img src="assets/image/g12.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2022" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2022</h1>
-        <img src="assets/image/studying2.jpg" alt="Project Image">
-    </div>
-</div>
-
-<div id="modal2023" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h1>Year 2023</h1>
-        <img src="assets/image/2nd.jpg" alt="Project Image">
-    </div>
-</div>
-
-
 </section>
+
 
 <section class="portfolio fade-in" id="Portfolio">
     <h1 class="heading fade-in"> My <span> Portfolio </span> </h1>

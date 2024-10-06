@@ -298,6 +298,9 @@ header .navbar ul li a:hover::after{
     animation: higuys 6s linear infinite;  
     animation-delay: 2s;
 }
+.box a {
+    text-decoration: none;
+}
 .education .box-container{
     display: flex;
     justify-content: space-between;
