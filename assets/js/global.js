@@ -43,20 +43,6 @@ var typed = new Typed(".post", {
     loop: true
 }); 
 
-/*Modal*/
-
-function openModal(modalId) {
-    var modal = document.getElementById(modalId);
-    modal.style.display = "block";
-}
-
-function closeModal() {
-    var modals = document.getElementsByClassName("modal");
-    for (var i = 0; i < modals.length; i++) {
-        modals[i].style.display = "none";
-    }
-}
-
 /*notifacation*/
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {

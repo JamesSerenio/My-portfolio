@@ -48,29 +48,36 @@
         </div>
         
         <div class="counter fade-in">
-            <div class="box fade-in"onclick="openModal('project')">
-                <span>5+</span>
-                <h3>Project Completed</h3>
-            </div>
-
-            <div class="box fade-in"onclick="openModal('yearOfStudying')">
-                <span>2+</span>
-                <h3>Year Of Studying</h3>
-            </div>
-
-            <div class="box fade-in"onclick="openModal('certificateAwards')">
-                <span>5+</span>
-                <h3>Certificate Awards</h3>
-            </div> 
-
-            <div class="box fade-in"onclick="openModal('satisfiedCustomers')">
-                <span>5+</span>
-                <h3>Satisfied Customers</h3>
-            </div>
-        </div>
+    <div class="box fade-in">
+        <a href="assets/activity/about me/Certificate_Awards.php">
+            <span>5+</span>
+            <h3>Project Completed</h3>
+        </a>
     </div>
 
-<!-- projectModal -->
+    <div class="box fade-in">
+        <a href="assets/activity/about me/Project_Completed.php">
+            <span>2+</span>
+            <h3>Year Of Studying</h3>
+        </a>
+    </div>
+
+    <div class="box fade-in">
+        <a href="certificate_awards.html">
+            <span>5+</span>
+            <h3>Certificate Awards</h3>
+        </a>
+    </div>
+
+    <div class="box fade-in">
+        <a href="satisfied_customers.html">
+            <span>5+</span>
+            <h3>Satisfied Customers</h3>
+        </a>
+    </div>
+</div>
+
+<!-- projectModal 
 
 <div id="project" class="modal">
     <div class="modal-content">
@@ -97,7 +104,7 @@
     </div>
 </div>
 
-<!-- yearOfStudyingModal -->
+
 
 <div id="yearOfStudying" class="modal">
     <div class="modal-content">
@@ -111,7 +118,6 @@
     </div>
 </div>
 
-<!-- Certificate Awards Modal -->
 
 <div id="certificateAwards" class="modal">
     <div class="modal-content">
@@ -121,8 +127,7 @@
         <img src="assets/image/awards.jpg" alt="Project Image">
     </div>
 </div>
-
-<!-- Satisfied Customers Modal -->
+-->
 
 <div id="satisfiedCustomers" class="modal">
     <div class="modal-content">
