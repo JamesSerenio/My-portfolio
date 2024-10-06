@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Year 2022</title>
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/Certificate_Awards.css">
+    <link rel="stylesheet" type="text/css" href="../../activity/my_education_css/education.css">
 </head>
 <body>
    
