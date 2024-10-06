@@ -50,7 +50,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .7rem solid  rgb(214, 140, 4);
+    border: .7rem solid  rgb(222, 10, 194);
 }
 header .user .name {
     font-size: 3.5rem;
