@@ -12,7 +12,7 @@
 <a href="javascript:history.back()" class="back-button">
         <img src="../../image/back.gif" alt="Back">
     </a>
-    
+
 <section class="certificate-section">
         <h1>Certificate Awards</h1>
         <p>"Those were my high school days when I was aiming to win all the awards for my swimming achievements."</p>
@@ -23,6 +23,5 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <script src="../../js/jquery-3.7.1.js"></script>
-    <script src="../../js/global.js"></script>
 </body>
 </html>

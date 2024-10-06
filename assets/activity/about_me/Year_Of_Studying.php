@@ -20,6 +20,5 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <script src="../../js/jquery-3.7.1.js"></script>
-    <script src="../../js/global.js"></script>
 </body>
 </html>
