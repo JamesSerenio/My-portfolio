@@ -297,6 +297,8 @@
 <a href="#Home" class="top">
     <img src="assets/image/rocket.png" alt="">
 </a>
+
+<div id="sparkle-container"></div>
 <!---script--->
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
