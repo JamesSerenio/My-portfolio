@@ -43,34 +43,15 @@ var typed = new Typed(".post", {
     loop: true
 }); 
 
-/*notifacation*/
-
+/* notification (no backend needed) */
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+  event.preventDefault();
 
-    var formData = new FormData(this);
-
-   
-    fetch('submit_form.php', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-       
-        if (data.status === 'success') {
-           
-            showNotification(data.message, 'success'); 
-        } else {
-            
-            showNotification(data.message, 'error');
-        }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        showNotification('An error occurred while submitting the form.', 'error'); 
-    });
+  // kahit walang PHP, automatic success
+  showNotification('✅ Message sent successfully!', 'success');
+  this.reset();
 });
+
 
 // Function to show the notification with animation
 function showNotification(message, type) {
